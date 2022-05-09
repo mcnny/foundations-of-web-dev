@@ -1,0 +1,15 @@
+nav {
+    background-color: #4169E1;
+}
+
+a {
+    color: cyan;
+     /* the "color" property represents FONT color */
+    margin: 10px;
+    }
+
+    .content {
+        font-size: 14pt;
+        /* pt represents points aka 1/72nd of an inch */
+        font-style: italic;
+    }
