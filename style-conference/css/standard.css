@@ -156,7 +156,7 @@ Grid Styles
 }
 
 .hero {
-    padding: 22px
+    padding: 22px 80px 66px 80px;
 }
 
 /*=====================
@@ -182,6 +182,6 @@ Buttons
 }
 
 .btn-alt{
-    border: 1px solid #def2E5;
+    border: 1px solid #dfe2e5;
     padding: 10px 30px;
 }
