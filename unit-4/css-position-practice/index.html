@@ -1,1 +1,49 @@
-.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="standard.css">
+    <title>Css Position Property Practice</title>
+</head>
+<body>
+    <div class="static">
+        <h1>Static</h1>
+        static is the default value. An element is positioned static;
+        is not positioned in any special way.
+    </div>
+
+    <div class="relative1">
+        <h1>Relative</h1>
+        Relative behaves the same as static UNLESS you add some extra
+        properties. Such as <i>top, right, bottom, left</i>
+    </div>
+
+    <div class="fixed">
+        <b>A fixed element is positioned relative to the viewport, which
+            means it always stays in the same place EVEN if the page
+            is scrolled. As with a relative, the top, right, bottom, and
+            left properties are used.
+        </b>
+
+        <h1>fixed</h1>
+
+        A <b>fixed</b> element is positioned relative to the viewport, 
+        which means it always stays in the same place EVEN if the page 
+        is scrolled. As with relative, the top, right, bottom, and 
+        left properties are used.
+    </div>
+
+    <h2>position: absolute;</h2>
+
+    <p>An element with position: absolute; is positioned relative to the
+        nearest positioned ancestor (instead of positioned relative to 
+        the viewport, like fixed):</p>
+
+    <div class="relative">This div element is position; relative;
+        <div class="absolute">This div element has position: absolute;
+        </div>
+    </div>
+</body>
+</html>
