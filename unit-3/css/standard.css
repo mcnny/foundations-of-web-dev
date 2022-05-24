@@ -25,8 +25,32 @@ nav>a:hover {
 
 .about-info {
     border: 2px double #ff9f00;
-    margin-top: 14px;
     width: 23vw;
     text-align: center;
     margin: 0 auto;
+}
+
+.photobox {
+    margin-top: 15px;
+    position: relative;
+    left: 10%;
+    border: 1px solid black;
+    width: 80vw;
+    padding: 10px;
+    background-color: #FED8B1
+}
+
+.photobox div {
+    position: relative;
+    left: 16%;
+    width: 33.33%;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.photobox div:nth-child(2) {
+    height: 200px;
 }
